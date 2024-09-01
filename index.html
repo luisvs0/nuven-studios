@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuven Studios</title>
+    <link rel="shortcut icon" href="icone-nuven.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#hero">Nuven Studios</a>
+            </div>
+            <nav>
+                <!-- Menu Desktop -->
+                <ul class="menu-desktop">
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#about">Sobre nós</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="https://nuvenapp.netlify.app/">Nuven Cloud</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+                <!-- Menu Mobile Toggle -->
+                <div class="menu-mobile-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <!-- Menu Mobile (Inicialmente Oculto) -->
+                <ul class="menu-mobile">
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#about">Sobre nós</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="https://nuvenapp.netlify.app/">Nuven Cloud</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Transforme sua visão em realidade digital com a Nuven Studios</h1>
+            <p>Design inovador, desenvolvimento excepcional e estratégias de marketing que elevam sua marca, tudo através de uma parceria em terceirização de confiança!</p>
+            <a href="https://wa.me/+5537998400138" class="btn-secondary">Começe agora</a>
+        </div>
+    </section>
+
+    <section id="services" class="section bg-light">
+        <div class="container">
+            <h2>Serviços</h2>
+            <div class="service-cards">
+                <div class="service-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Design gráfico</h3>
+                    <p>Criação de identidades visuais impactantes e atrativas.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>Ddesenvolvimento de interfaces intuitivas e experiências de usuário envolventes.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-pencil-alt"></i>
+                    <h3>Logo Design</h3>
+                    <p>Criação de logotipos que representem a essência da sua marca.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Desenvolvimento web, app, nuvem</h3>
+                    <p>Desenvolvimento de sites, apps e nuvem modernos e responsivos.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-bullhorn"></i>
+                    <h3>Marketing digital</h3>
+                    <p>Estratégias de marketing digital para aumentar a presença online.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-thumbs-up"></i>
+                    <h3>Social Media</h3>
+                    <p>Gerenciamento de mídias sociais para engajar seu público.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section bg-primary">
+        <div class="container">
+            <h2>Portfólio</h2>
+            <div class="portfolio-gallery">
+                <div class="portfolio-item">
+                    <img src="cargo.png" alt="Projeto 1">
+                    <div class="portfolio-overlay">
+                        <h4>Cargo</h4>
+                        <p>Plataforma SaaS de gestão de logistica</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="zavora.png" alt="Projeto 2">
+                    <div class="portfolio-overlay">
+                        <h4>Zavora Studio</h4>
+                        <p>Logo para marca de roupas natural</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="atomo.png" alt="Projeto 3">
+                    <div class="portfolio-overlay">
+                        <h4>Atomo ERP</h4>
+                        <p>SaaS de gestão empresarial</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section bg-secondary">
+        <div class="container">
+            <h2>Sobre nós</h2>
+            <p>A Nuven Studios é uma agência criativa especializada em transformar ideias em realidade digital. Nós oferecemos uma variedade de serviços que incluem design gráfico personalizado, desenvolvimento web e de aplicativos móveis, além de estratégias avançadas de marketing digital. Nosso objetivo é ajudar empresas e empreendedores a se destacarem online através de soluções visualmente atraentes e altamente funcionais, adaptadas às suas necessidades específicas. Na Nuven Studios, combinamos criatividade, expertise técnica e um compromisso com a qualidade para impulsionar o sucesso dos nossos clientes no mundo digital.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2>Contato</h2>
+            <form action="https://formspree.io/f/{luisgustavovargasbd@gmail.com}" method="POST">
+                <div class="form-group">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensagem</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-social">
+                <a href="www.linkedin.com/in/nuven-studios"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.behance.net/luis_vargas0"><i class="fab fa-behance"></i></a>
+                <a href="https://www.instagram.com/nuvenstudios/"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; 2024 Nuven Studio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.querySelector('.menu-mobile-toggle');
+            const menuMobile = document.querySelector('.menu-mobile');
+
+            menuToggle.addEventListener('click', function() {
+                menuMobile.classList.toggle('active');
+            });
+        });
+
+    </script>
+</body>
+</html>
